@@ -20,7 +20,7 @@ import scala.collection.mutable.ListBuffer
   "-XX:+AlwaysPreTouch"))
 @BenchmarkMode(Array(Mode.Throughput))
 @OutputTimeUnit(TimeUnit.SECONDS)
-class ListBufferBenchmark {
+class TemplateBenchmark {
   @Param(Array("1", "10", "100"))
   var size: Int = 1000
 
